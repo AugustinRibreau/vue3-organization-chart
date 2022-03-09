@@ -9,6 +9,10 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AugustinRibreau/vue3-orgchart.git"
+  },
   "keywords": [
     "vuejs",
     "vue3js",

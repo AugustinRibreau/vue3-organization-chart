@@ -1,14 +1,19 @@
 {
-  "name": "@vue3-organization-chart/vue3-orgchart",
-  "version": "1.1.0",
+  "name": "vue3-organization-chart",
+  "version": "1.2.0",
   "private": false,
   "author": "augustin <augustin.ribreau@gmail.com>",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-component": "vue-cli-service build --target lib --name orgchart ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "./dist/orgchart.umd.min.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AugustinRibreau/vue3-orgchart.git"
@@ -64,6 +69,5 @@
   "bugs": {
     "url": "https://github.com/AugustinRibreau/vue3-orgchart/issues"
   },
-  "homepage": "https://github.com/AugustinRibreau/vue3-orgchart#readme",
-  "main": "babel.config.js"
+  "homepage": "https://github.com/AugustinRibreau/vue3-orgchart#readme"
 }

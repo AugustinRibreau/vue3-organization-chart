@@ -17,14 +17,14 @@
           >
             <slot :node-data="datasource">
               <div
-                class="text-center text-xs font-bold h-5 leading-5 overflow-hidden overflow-ellipsis whitespace-nowrap bg-red-600 text-white rounded-t"
+                class="chartTitle text-center text-xs font-bold h-5 leading-5 overflow-hidden overflow-ellipsis whitespace-nowrap bg-red-600 text-white rounded-t"
               >
-                <p class="mx-2 chartTitle">{{ datasource.name }}</p>
+                <p class="mx-2">{{ datasource.name }}</p>
               </div>
               <div
-                class="border-box w-full h-5 text-xs border border-red-600 text-center rounded-b bg-white text-black overflow-none overflow-ellipsis whitespace-nowrap"
+                class="chartContent border-box w-full h-5 text-xs border border-red-600 text-center rounded-b bg-white text-black overflow-none overflow-ellipsis whitespace-nowrap"
               >
-                <p class="mx-2 chartContent">{{ datasource.title }}</p>
+                <p class="mx-2">{{ datasource.title }}</p>
               </div>
             </slot>
           </div>

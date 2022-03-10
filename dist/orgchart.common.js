@@ -2890,7 +2890,7 @@ var es_array_join = __webpack_require__("a15b");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=template&id=3f24e06f
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=template&id=7212083b
 
 
 
@@ -2900,16 +2900,16 @@ var _hoisted_1 = {
 var _hoisted_2 = ["colspan"];
 var _hoisted_3 = ["id"];
 var _hoisted_4 = {
-  class: "text-center text-xs font-bold h-5 leading-5 overflow-hidden overflow-ellipsis whitespace-nowrap bg-red-600 text-white rounded-t"
+  class: "chartTitle text-center text-xs font-bold h-5 leading-5 overflow-hidden overflow-ellipsis whitespace-nowrap bg-red-600 text-white rounded-t"
 };
 var _hoisted_5 = {
-  class: "mx-2 chartTitle"
+  class: "mx-2"
 };
 var _hoisted_6 = {
-  class: "border-box w-full h-5 text-xs border border-red-600 text-center rounded-b bg-white text-black overflow-none overflow-ellipsis whitespace-nowrap"
+  class: "chartContent border-box w-full h-5 text-xs border border-red-600 text-center rounded-b bg-white text-black overflow-none overflow-ellipsis whitespace-nowrap"
 };
 var _hoisted_7 = {
-  class: "mx-2 chartContent"
+  class: "mx-2"
 };
 var _hoisted_8 = {
   class: "chartLines h-5"
@@ -2944,7 +2944,7 @@ var _hoisted_16 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_V
 var _hoisted_17 = {
   class: "nodes"
 };
-function OrganizationChartNodevue_type_template_id_3f24e06f_render(_ctx, _cache, $props, $setup, $data, $options) {
+function OrganizationChartNodevue_type_template_id_7212083b_render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_node = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["resolveComponent"])("node");
 
   return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("table", _hoisted_1, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tbody", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
@@ -2989,7 +2989,7 @@ function OrganizationChartNodevue_type_template_id_3f24e06f_render(_ctx, _cache,
     })]), 1032, ["datasource", "handle-click"])]);
   }), 128))])], 64)) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true)])]);
 }
-// CONCATENATED MODULE: ./src/components/OrganizationChartNode.vue?vue&type=template&id=3f24e06f
+// CONCATENATED MODULE: ./src/components/OrganizationChartNode.vue?vue&type=template&id=7212083b
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=script&lang=js
 /* harmony default export */ var OrganizationChartNodevue_type_script_lang_js = ({
@@ -3012,7 +3012,7 @@ var exportHelper_default = /*#__PURE__*/__webpack_require__.n(exportHelper);
 
 
 
-const __exports__ = /*#__PURE__*/exportHelper_default()(OrganizationChartNodevue_type_script_lang_js, [['render',OrganizationChartNodevue_type_template_id_3f24e06f_render]])
+const __exports__ = /*#__PURE__*/exportHelper_default()(OrganizationChartNodevue_type_script_lang_js, [['render',OrganizationChartNodevue_type_template_id_7212083b_render]])
 
 /* harmony default export */ var OrganizationChartNode = (__exports__);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartContainer.vue?vue&type=script&lang=js

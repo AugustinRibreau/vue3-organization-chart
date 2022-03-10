@@ -11486,13 +11486,6 @@ module.exports = version;
 
 /***/ }),
 
-/***/ "32d4":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "342f":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12160,6 +12153,13 @@ exports.default = (sfc, props) => {
 
 /***/ }),
 
+/***/ "6b38":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "6eeb":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12442,17 +12442,6 @@ var isCallable = __webpack_require__("1626");
 module.exports = function (it) {
   return typeof it == 'object' ? it !== null : isCallable(it);
 };
-
-
-/***/ }),
-
-/***/ "86e7":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartContainer_vue_vue_type_style_index_0_id_c3095f9c_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("32d4");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartContainer_vue_vue_type_style_index_0_id_c3095f9c_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartContainer_vue_vue_type_style_index_0_id_c3095f9c_lang_css__WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
 
 
 /***/ }),
@@ -13587,6 +13576,17 @@ module.exports = Object.keys || function keys(O) {
 
 /***/ }),
 
+/***/ "e00d":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartContainer_vue_vue_type_style_index_0_id_489ddadf_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6b38");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartContainer_vue_vue_type_style_index_0_id_489ddadf_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartContainer_vue_vue_type_style_index_0_id_489ddadf_lang_css__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "e330":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13720,7 +13720,7 @@ var es_object_keys = __webpack_require__("b64b");
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartContainer.vue?vue&type=template&id=c3095f9c
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartContainer.vue?vue&type=template&id=489ddadf
 
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -13729,7 +13729,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("div", Object(external_commonjs_vue_commonjs2_vue_root_Vue_["mergeProps"])({
     scopedSlots: _ctx.$slots
   }, {
-    class: "orgchart-container",
+    class: "relative inline-block border-2 border-dashed border-gray-400 rounded overflow-auto text-center",
     onWheel: _cache[2] || (_cache[2] = function ($event) {
       return $props.zoom && $options.zoomHandler($event);
     }),
@@ -13737,7 +13737,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return $props.pan && $data.panning && $options.panEndHandler($event);
     })
   }), [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", {
-    class: "orgchart",
+    class: "orgchart box-border inline-block touch-none select-none border border-dashed border-white p-5",
     style: Object(external_commonjs_vue_commonjs2_vue_root_Vue_["normalizeStyle"])({
       transform: $data.transformVal,
       cursor: $data.cursorVal
@@ -13762,7 +13762,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     };
   })]), 1032, ["datasource", "handle-click"])], 36)], 16);
 }
-// CONCATENATED MODULE: ./src/components/OrganizationChartContainer.vue?vue&type=template&id=c3095f9c
+// CONCATENATED MODULE: ./src/components/OrganizationChartContainer.vue?vue&type=template&id=489ddadf
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.number.constructor.js
 var es_number_constructor = __webpack_require__("a9e3");
@@ -13783,63 +13783,70 @@ var jquery_default = /*#__PURE__*/__webpack_require__.n(jquery);
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=template&id=4e6f07ce
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=template&id=7e35c53c
 
 
 
-var _hoisted_1 = ["colspan"];
-var _hoisted_2 = ["id"];
-var _hoisted_3 = {
-  class: "title"
+var _hoisted_1 = {
+  class: "mt-2 mb-2 mx-auto border-separate"
 };
-
-var _hoisted_4 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("i", {
-  class: "fa fa-users symbol"
-}, null, -1);
-
+var _hoisted_2 = ["colspan"];
+var _hoisted_3 = ["id"];
+var _hoisted_4 = {
+  class: "text-center text-xs font-bold h-5 leading-5 overflow-hidden overflow-ellipsis whitespace-nowrap bg-red-600 text-white rounded-t"
+};
 var _hoisted_5 = {
-  class: "content"
+  class: "mx-2"
 };
 var _hoisted_6 = {
-  class: "lines"
+  class: "border-box w-full h-5 text-xs border border-red-600 text-center rounded-b bg-white text-black overflow-none overflow-ellipsis whitespace-nowrap"
 };
-var _hoisted_7 = ["colspan"];
-
-var _hoisted_8 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", {
-  class: "downLine"
-}, null, -1);
-
-var _hoisted_9 = [_hoisted_8];
-var _hoisted_10 = {
-  class: "lines"
+var _hoisted_7 = {
+  class: "mx-2"
 };
+var _hoisted_8 = {
+  class: "h-5"
+};
+var _hoisted_9 = ["colspan"];
 
-var _hoisted_11 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
-  class: "rightLine"
+var _hoisted_10 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", {
+  class: "bg-red-400 mx-auto float-none h-5 w-0.5"
 }, null, -1);
 
-var _hoisted_12 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
-  class: "leftLine topLine"
-}, null, -1);
+var _hoisted_11 = [_hoisted_10];
+var _hoisted_12 = {
+  class: "h-5"
+};
 
 var _hoisted_13 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
-  class: "rightLine topLine"
+  class: "border-r border-red-400"
 }, null, -1);
 
 var _hoisted_14 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
-  class: "leftLine"
+  class: "border-l border-red-400 border-t-2"
 }, null, -1);
 
-var _hoisted_15 = {
+var _hoisted_15 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
+  class: "border-r border-red-400 border-t-2"
+}, null, -1);
+
+var _hoisted_16 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
+  class: "border-l border-red-400"
+}, null, -1);
+
+var _hoisted_17 = {
   class: "nodes"
 };
-function OrganizationChartNodevue_type_template_id_4e6f07ce_render(_ctx, _cache, $props, $setup, $data, $options) {
+function OrganizationChartNodevue_type_template_id_7e35c53c_render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_node = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["resolveComponent"])("node");
 
-  return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("table", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tbody", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
+  return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("table", _hoisted_1, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tbody", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
     colspan: $props.datasource.children && $props.datasource.children.length ? $props.datasource.children.length * 2 : null
   }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", {
-    class: "node",
+    class: "border-box inline-block relative m-0 p-0.5 border-2 border-dashed border-transparent text-center transition duration-300 hover:bg-red-300 rounded hover:cursor-default hover:z-20",
+    style: {
+      "min-width": "9rem"
+    },
     id: $props.datasource.id,
     onClick: _cache[0] || (_cache[0] = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["withModifiers"])(function ($event) {
       return $props.handleClick($props.datasource);
@@ -13847,16 +13854,16 @@ function OrganizationChartNodevue_type_template_id_4e6f07ce_render(_ctx, _cache,
   }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["renderSlot"])(_ctx.$slots, "default", {
     nodeData: $props.datasource
   }, function () {
-    return [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", _hoisted_3, [_hoisted_4, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createTextVNode"])(" " + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])($props.datasource.name), 1)]), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", _hoisted_5, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])($props.datasource.title), 1)];
-  })], 8, _hoisted_2)], 8, _hoisted_1)]), $props.datasource.children && $props.datasource.children.length ? (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], {
+    return [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", _hoisted_4, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("p", _hoisted_5, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])($props.datasource.name), 1)]), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", _hoisted_6, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("p", _hoisted_7, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])($props.datasource.title), 1)])];
+  })], 8, _hoisted_3)], 8, _hoisted_2)]), $props.datasource.children && $props.datasource.children.length ? (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], {
     key: 0
-  }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", _hoisted_6, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
+  }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", _hoisted_8, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
     colspan: $props.datasource.children.length * 2
-  }, _hoisted_9, 8, _hoisted_7)]), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", _hoisted_10, [_hoisted_11, (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(true), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], null, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["renderList"])($props.datasource.children.length - 1, function (n) {
+  }, _hoisted_11, 8, _hoisted_9)]), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", _hoisted_12, [_hoisted_13, (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(true), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], null, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["renderList"])($props.datasource.children.length - 1, function (n) {
     return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], {
       key: n
-    }, [_hoisted_12, _hoisted_13], 64);
-  }), 128)), _hoisted_14]), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", _hoisted_15, [(Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(true), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], null, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["renderList"])($props.datasource.children, function (child) {
+    }, [_hoisted_14, _hoisted_15], 64);
+  }), 128)), _hoisted_16]), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", _hoisted_17, [(Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(true), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], null, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["renderList"])($props.datasource.children, function (child) {
     return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("td", {
       colspan: "2",
       key: child.id
@@ -13875,7 +13882,7 @@ function OrganizationChartNodevue_type_template_id_4e6f07ce_render(_ctx, _cache,
     })]), 1032, ["datasource", "handle-click"])]);
   }), 128))])], 64)) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true)])]);
 }
-// CONCATENATED MODULE: ./src/components/OrganizationChartNode.vue?vue&type=template&id=4e6f07ce
+// CONCATENATED MODULE: ./src/components/OrganizationChartNode.vue?vue&type=template&id=7e35c53c
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=script&lang=js
 /* harmony default export */ var OrganizationChartNodevue_type_script_lang_js = ({
@@ -13898,7 +13905,7 @@ var exportHelper_default = /*#__PURE__*/__webpack_require__.n(exportHelper);
 
 
 
-const __exports__ = /*#__PURE__*/exportHelper_default()(OrganizationChartNodevue_type_script_lang_js, [['render',OrganizationChartNodevue_type_template_id_4e6f07ce_render]])
+const __exports__ = /*#__PURE__*/exportHelper_default()(OrganizationChartNodevue_type_script_lang_js, [['render',OrganizationChartNodevue_type_template_id_7e35c53c_render]])
 
 /* harmony default export */ var OrganizationChartNode = (__exports__);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartContainer.vue?vue&type=script&lang=js
@@ -14059,11 +14066,170 @@ const __exports__ = /*#__PURE__*/exportHelper_default()(OrganizationChartNodevue
       this.setChartScale(newScale);
     }
   }
-});
+}); // import OrganizationChartNode from "./OrganizationChartNode.vue";
+//
+// export default {
+//   name: "Container",
+//   props: {
+//     background: Boolean,
+//     datasource: {
+//       type: Object,
+//       required: true,
+//     },
+//     pan: {
+//       type: Boolean,
+//       required: false,
+//     },
+//     zoom: {
+//       type: Boolean,
+//       required: false,
+//     },
+//     zoomOutLimit: {
+//       type: Number,
+//       required: false,
+//       default: 0.5,
+//     },
+//     zoomInLimit: {
+//       type: Number,
+//       required: false,
+//       default: 7,
+//     },
+//   },
+//   data() {
+//     return {
+//       cursorVal: "default",
+//       panning: false,
+//       coordinate: {
+//         start: {
+//           x: 0,
+//           y: 0,
+//         },
+//         current: {
+//           x: 0,
+//           y: 0,
+//         },
+//         last: {
+//           x: 0,
+//           y: 0,
+//         },
+//       },
+//       transformVal: "",
+//     };
+//   },
+//   components: {
+//     OrganizationChartNode,
+//   },
+//   methods: {
+//     handleClick(nodeData) {
+//       this.$emit("node-click", nodeData);
+//     },
+//     panEndHandler() {
+//       this.panning = false;
+//       this.cursorVal = "default";
+//     },
+//     panHandler(event) {
+//       if (!event.targetTouches) {
+//         // pand on desktop
+//         this.coordinate.current.x = event.pageX - this.coordinate.start.x;
+//         this.coordinate.current.y = event.pageY - this.coordinate.start.y;
+//       } else if (event.targetTouches.length === 1) {
+//         // pan on mobile device
+//         this.coordinate.current.x =
+//           event.targetTouches[0].pageX - this.coordinate.start.x;
+//         this.coordinate.current.y =
+//           event.targetTouches[0].pageY - this.coordinate.start.y;
+//       } else if (event.targetTouches.length > 1) {
+//         return;
+//       }
+//
+//       if (this.transformVal !== "") {
+//         let matrix = this.transformVal.split(",");
+//         if (this.transformVal.indexOf("3d") === -1) {
+//           matrix[4] = this.coordinate.current.x;
+//           matrix[5] = this.coordinate.current.y + ")";
+//         } else {
+//           matrix[12] = this.coordinate.current.x;
+//           matrix[13] = this.coordinate.current.y;
+//         }
+//         this.transformVal = matrix.join(",");
+//       }
+//
+//       if (this.transformVal.indexOf("3d") !== -1) {
+//         return (this.transformVal =
+//           "matrix3d(1,0,0,0,0,1,0,0,0,0,1,0," +
+//           this.coordinate.current.x +
+//           ", " +
+//           this.coordinate.current.y +
+//           ",0,1)");
+//       }
+//       return (this.transformVal =
+//         "matrix(1,0,0,1," +
+//         this.coordinate.current.x +
+//         "," +
+//         this.coordinate.current.y +
+//         ")");
+//     },
+//     panStartHandler(event) {
+//       this.cursorVal = "move";
+//       this.panning = true;
+//       if (this.transformVal !== "") {
+//         let matrix = this.transformVal.split(",");
+//         if (this.transformVal.indexOf("3d") === -1) {
+//           this.coordinate.last.x = parseInt(matrix[4]);
+//           this.coordinate.last.y = parseInt(matrix[5]);
+//         } else {
+//           this.coordinate.last.x = parseInt(matrix[12]);
+//           this.coordinate.last.y = parseInt(matrix[13]);
+//         }
+//       }
+//       if (!event.targetTouches) {
+//         // pand on desktop
+//         this.coordinate.start.x = event.pageX - this.coordinate.last.x;
+//         this.coordinate.start.y = event.pageY - this.coordinate.last.y;
+//       } else if (event.targetTouches.length === 1) {
+//         // pan on mobile device
+//         this.coordinate.start.x =
+//           event.targetTouches[0].pageX - this.coordinate.last.x;
+//         this.coordinate.start.y =
+//           event.targetTouches[0].pageY - this.coordinate.last.y;
+//       }
+//     },
+//     setChartScale(newScale) {
+//       let matrix = "";
+//       let targetScale = 1;
+//       if (this.transformVal === "") {
+//         return (this.transformVal =
+//           "matrix(" + newScale + ", 0, 0, " + newScale + ", 0, 0)");
+//       }
+//
+//       matrix = this.transformVal.split(",");
+//
+//       if (this.transformVal.indexOf("3d") === -1) {
+//         targetScale = Math.abs(window.parseFloat(matrix[3]) * newScale);
+//         if (targetScale > this.zoomOutLimit && targetScale < this.zoomInLimit) {
+//           matrix[0] = "matrix(" + targetScale;
+//           matrix[3] = targetScale;
+//           this.transformVal = matrix.join(",");
+//         }
+//         return;
+//       }
+//       targetScale = Math.abs(window.parseFloat(matrix[5]) * newScale);
+//       if (targetScale > this.zoomOutLimit && targetScale < this.zoomInLimit) {
+//         matrix[0] = "matrix3d(" + targetScale;
+//         matrix[5] = targetScale;
+//         this.transformVal = matrix.join(",");
+//       }
+//     },
+//     zoomHandler(e) {
+//       let newScale = 1 + (e.deltaY > 0 ? -0.2 : 0.2);
+//       this.setChartScale(newScale);
+//     },
+//   },
+// };
 // CONCATENATED MODULE: ./src/components/OrganizationChartContainer.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./src/components/OrganizationChartContainer.vue?vue&type=style&index=0&id=c3095f9c&lang=css
-var OrganizationChartContainervue_type_style_index_0_id_c3095f9c_lang_css = __webpack_require__("86e7");
+// EXTERNAL MODULE: ./src/components/OrganizationChartContainer.vue?vue&type=style&index=0&id=489ddadf&lang=css
+var OrganizationChartContainervue_type_style_index_0_id_489ddadf_lang_css = __webpack_require__("e00d");
 
 // CONCATENATED MODULE: ./src/components/OrganizationChartContainer.vue
 

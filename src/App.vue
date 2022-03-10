@@ -1,11 +1,10 @@
 <template>
-  <div id="app">
-    <org-chart :datasource="ds" @node-click="selectNode">
-      <!--       <template slot-scope="{ nodeData }">
-              <b @click="selectNode(nodeData)">{{ nodeData.name }}</b>
-            </template> -->
-    </org-chart>
-  </div>
+  <org-chart
+    :datasource="ds"
+    @node-click="selectNode"
+    :pan="true"
+    :zoom="true"
+  ></org-chart>
 </template>
 
 <script>
@@ -54,13 +53,3 @@ export default {
   },
 };
 </script>
-
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-</style>

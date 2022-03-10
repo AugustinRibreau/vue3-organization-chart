@@ -2,8 +2,6 @@
   <org-chart
     :datasource="ds"
     @node-click="selectNode"
-    :pan="true"
-    :zoom="true"
   ></org-chart>
 </template>
 
@@ -19,8 +17,8 @@ export default {
     return {
       ds: {
         id: "1",
-        name: "Lao Lao",
-        title: "general manager",
+        name: "Augustin Ribreau",
+        title: "director",
         children: [
           { id: "2", name: "Bo Miao", title: "department manager" },
           {

@@ -10,7 +10,7 @@
           "
         >
           <div
-            class="border-box inline-block relative m-0 p-0.5 border-2 border-dashed border-transparent text-center transition duration-300 hover:bg-red-300 rounded hover:cursor-default hover:z-20"
+            class="chartNode border-box inline-block relative m-0 p-0.5 border-2 border-dashed border-transparent text-center transition duration-300 hover:bg-red-300 rounded hover:cursor-default hover:z-20"
             style="min-width: 9rem"
             :id="datasource.id"
             @click.stop="handleClick(datasource)"
@@ -19,30 +19,30 @@
               <div
                 class="text-center text-xs font-bold h-5 leading-5 overflow-hidden overflow-ellipsis whitespace-nowrap bg-red-600 text-white rounded-t"
               >
-                <p class="mx-2">{{ datasource.name }}</p>
+                <p class="mx-2 chartTitle">{{ datasource.name }}</p>
               </div>
               <div
                 class="border-box w-full h-5 text-xs border border-red-600 text-center rounded-b bg-white text-black overflow-none overflow-ellipsis whitespace-nowrap"
               >
-                <p class="mx-2">{{ datasource.title }}</p>
+                <p class="mx-2 chartContent">{{ datasource.title }}</p>
               </div>
             </slot>
           </div>
         </td>
       </tr>
       <template v-if="datasource.children && datasource.children.length">
-        <tr class="h-5">
+        <tr class="chartLines h-5">
           <td :colspan="datasource.children.length * 2">
-            <div class="bg-red-400 mx-auto float-none h-5 w-0.5"></div>
+            <div class="chartDownLine bg-red-400 mx-auto float-none h-5 w-0.5"></div>
           </td>
         </tr>
-        <tr class="h-5">
-          <td class="border-r border-red-400"></td>
+        <tr class="chartLines h-5">
+          <td class="chartRightLine border-r border-red-400"></td>
           <template v-for="n in datasource.children.length - 1" v-bind:key="n">
-            <td class="border-l border-red-400 border-t-2"></td>
-            <td class="border-r border-red-400 border-t-2"></td>
+            <td class="chartLeftLine chartTopLine border-l border-red-400 border-t-2"></td>
+            <td class="chartRightLine chartTopLine border-r border-red-400 border-t-2"></td>
           </template>
-          <td class="border-l border-red-400"></td>
+          <td class="chartLeftLine border-l border-red-400"></td>
         </tr>
         <tr class="nodes">
           <td colspan="2" v-for="child in datasource.children" :key="child.id">

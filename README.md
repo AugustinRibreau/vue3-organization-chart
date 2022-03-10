@@ -2,7 +2,7 @@
 
 ## Foreword
 - First of all, thank you very much for the excellent work of [dabeng](https://github.com/dabeng). I'm just adding my sauce to move the project to Vue3
-- **It's work with VueJS 3 !**
+- **It work's with VueJS 3 !**
 
 # Installation
 ```

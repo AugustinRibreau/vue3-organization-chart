@@ -1,5 +1,5 @@
 <template>
-  <table class="mt-2 mb-2 mx-auto border-separate">
+  <table class="mb-2 mx-auto border-separate">
     <tbody>
       <tr>
         <td

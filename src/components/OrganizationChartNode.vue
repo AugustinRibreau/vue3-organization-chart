@@ -1,5 +1,5 @@
 <template>
-  <table class="mb-2 mx-auto border-separate">
+  <table class="table">
     <tbody>
       <tr>
         <td
@@ -10,39 +10,39 @@
           "
         >
           <div
-            class="chartNode border-box inline-block relative m-0 p-0.5 border-2 border-dashed border-transparent text-center transition duration-300 hover:bg-red-300 rounded hover:cursor-default hover:z-20"
+            class="chartNode"
             style="min-width: 9rem"
             :id="datasource.id"
             @click.stop="handleClick(datasource)"
           >
             <slot :node-data="datasource">
-              <div
-                class="chartTitle text-center text-xs font-bold h-5 leading-5 overflow-hidden overflow-ellipsis whitespace-nowrap bg-red-600 text-white rounded-t"
-              >
-                <p class="mx-2">{{ datasource.name }}</p>
+              <div class="chartTitle">
+                <p style="margin-left: 0.5rem; margin-right: 0.5rem">
+                  {{ datasource.name }}
+                </p>
               </div>
-              <div
-                class="chartContent border-box w-full h-5 text-xs border border-red-600 text-center rounded-b bg-white text-black overflow-none overflow-ellipsis whitespace-nowrap"
-              >
-                <p class="mx-2">{{ datasource.title }}</p>
+              <div class="chartContent">
+                <p style="margin-left: 0.5rem; margin-right: 0.5rem">
+                  {{ datasource.title }}
+                </p>
               </div>
             </slot>
           </div>
         </td>
       </tr>
       <template v-if="datasource.children && datasource.children.length">
-        <tr class="chartLines h-5">
+        <tr class="chartLines">
           <td :colspan="datasource.children.length * 2">
-            <div class="chartDownLine bg-red-400 mx-auto float-none h-5 w-0.5"></div>
+            <div class="chartDownLine"></div>
           </td>
         </tr>
-        <tr class="chartLines h-5">
-          <td class="chartRightLine border-r border-red-400"></td>
+        <tr class="chartLines">
+          <td class="chartRightLine"></td>
           <template v-for="n in datasource.children.length - 1" v-bind:key="n">
-            <td class="chartLeftLine chartTopLine border-l border-red-400 border-t-2"></td>
-            <td class="chartRightLine chartTopLine border-r border-red-400 border-t-2"></td>
+            <td class="chartLeftLine chartTopLine"></td>
+            <td class="chartRightLine chartTopLine"></td>
           </template>
-          <td class="chartLeftLine border-l border-red-400"></td>
+          <td class="chartLeftLine"></td>
         </tr>
         <tr class="nodes">
           <td colspan="2" v-for="child in datasource.children" :key="child.id">
@@ -71,3 +71,91 @@ export default {
   methods: {},
 };
 </script>
+
+<style>
+.table {
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+}
+
+.chartNode {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 1px 2px 1px;
+  max-width: 20px;
+  border: 1px solid #f56868;
+  text-align: center;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  border-radius: 0.35rem;
+}
+.chartNode:hover {
+  box-shadow: 0 0 5px #f56868;
+  cursor: default;
+  z-index: 20;
+}
+
+.chartTitle {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #f56868;
+  color: white;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.chartContent {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  border: #f56868;
+  text-align: center;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  background: white;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.chartLines {
+  height: 1.25rem;
+}
+
+.chartDownLine {
+  background: #f56868;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1.25rem;
+  width: 0.125rem;
+  float: none;
+}
+
+.chartTopLine {
+  border-top-color: #f56868;
+  border-top-width: 2px;
+}
+
+.chartRightLine {
+  border-right-color: #f56868;
+  border-right-width: 1px;
+}
+
+.chartLeftLine {
+  border-left-color: #f56868;
+  border-left-width: 1px;
+}
+</style>

@@ -1,12 +1,12 @@
 <template>
   <div
     v-bind="{ scopedSlots: $slots }"
-    class="chartOrgchartContainer relative inline-block border-2 border-dashed border-gray-400 rounded overflow-auto text-center"
+    class="chartOrgchartContainer"
     @wheel="zoom && zoomHandler($event)"
     @mouseup="pan && panning && panEndHandler($event)"
   >
     <div
-      class="chartOrgchart box-border inline-block touch-none select-none border border-dashed border-white p-5"
+      class="chartOrgchart"
       :style="{
         transform: transformVal,
         cursor: cursorVal,
@@ -190,6 +190,24 @@ export default {
 </script>
 
 <style>
+.chartOrgchartContainer {
+  position: relative;
+  display: inline-block;
+  border: 2px dashed lightgray;
+  border-radius: 0.25rem;
+  overflow: auto;
+  text-align: center;
+}
+
+.chartOrgchart {
+  box-sizing: border-box;
+  display: inline-block;
+  touch-action: none;
+  user-select: none;
+  border: 1px dashed white;
+  padding: 1.25rem;
+}
+
 .chartOrgchart table {
   border-spacing: 0;
 }

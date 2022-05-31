@@ -146,16 +146,19 @@ export default {
 
 .chartTopLine {
   border-top-color: #f56868;
+  border-top-style: solid;
   border-top-width: 2px;
 }
 
 .chartRightLine {
   border-right-color: #f56868;
+  border-right-style: solid;
   border-right-width: 1px;
 }
 
 .chartLeftLine {
   border-left-color: #f56868;
+  border-left-style: solid;
   border-left-width: 1px;
 }
 </style>

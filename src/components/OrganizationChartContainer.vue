@@ -190,6 +190,11 @@ export default {
 </script>
 
 <style>
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .chartOrgchartContainer {
   position: relative;
   display: inline-block;

@@ -1,7 +1,7 @@
 ![OrgChart](./src/assets/logo.png)
 
 <div style="display-flex flex-row">  
-  <img alt="Version" src="https://img.shields.io/badge/version-1.9.3-blue.svg?cacheSeconds=2592000" />  
+  <img alt="Version" src="https://img.shields.io/badge/version-1.9.4-blue.svg?cacheSeconds=2592000" />  
   <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />  
   <img src="https://img.shields.io/badge/node-%3E%3D9.3.0-blue.svg" />  
   <a href="https://github.com/augustinribreau/vue3-organization-chart/graphs/commit-activity" target="_blank">  

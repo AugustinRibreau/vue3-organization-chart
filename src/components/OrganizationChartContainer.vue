@@ -207,8 +207,6 @@ p {
 .chartOrgchart {
   box-sizing: border-box;
   display: inline-block;
-  touch-action: none;
-  user-select: none;
   border: 1px dashed white;
   padding: 1.25rem;
 }
